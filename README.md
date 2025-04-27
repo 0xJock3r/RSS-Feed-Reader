@@ -35,4 +35,18 @@ pip install -r requirements.txt
 chmod +x main.py
 ```
 
+## 🔍 Usage
+
+```bash
+python main.py <command> [options]
+```
+
+## ⚙️ Commands
+
+- `add`: Add a new RSS feed
+- `remove`: Remove an RSS feed
+- `list`: List all configured feeds
+- `read`: Read items from feeds
+- `mark-read`: Mark all items in feeds as read
+- `clear-history`: Clear read items history
 
