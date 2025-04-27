@@ -177,3 +177,14 @@ Here are some popular RSS feeds you might want to add:
 - Python Insider: https://pythoninsider.blogspot.com/feeds/posts/default
 - GitHub Blog: https://github.blog/feed/
 
+## 💡 Tips
+
+- Add a variety of feeds to stay informed about different topics
+- Use the `-r` flag when reading to automatically mark items as read
+- Use the `-a` flag to see older articles you've already read
+- Clear your read history occasionally to keep the database small
+- Use this tool in a cron job or scheduled task to check for new articles automatically
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
