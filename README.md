@@ -50,3 +50,49 @@ python main.py <command> [options]
 - `mark-read`: Mark all items in feeds as read
 - `clear-history`: Clear read items history
 
+## 📋 Command Options
+
+### Add a feed:
+```bash
+python main.py add <url> [options]
+```
+
+#### Options:
+
+- `-n, --name`: Custom name for the feed
+
+### Remove a feed:
+```bash
+python main.py remove <name>
+```
+
+### List feeds:
+```bash
+python main.py list
+```
+
+### Read feeds:
+```bash
+python main.py read [feed_name] [options]
+```
+
+#### Options:
+
+- `-m, --max`: Maximum number of items to show (default: 10)
+- `-a, --all`: Show already read items
+- `-r, --mark-read`: Mark items as read
+
+### Mark all as read:
+```bash
+python main.py mark-read [feed_name]
+```
+
+### Clear read history:
+```bash
+python main.py clear-history
+```
+
+### Global options:
+
+- `-c, --config`: Configuration file (default: ~/.rss_reader.json)
+
