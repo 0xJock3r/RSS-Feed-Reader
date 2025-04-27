@@ -96,3 +96,60 @@ python main.py clear-history
 
 - `-c, --config`: Configuration file (default: ~/.rss_reader.json)
 
+## 📝 Examples
+
+### Add a feed:
+```bash
+python main.py add https://news.ycombinator.com/rss
+```
+
+### Add a feed with a custom name:
+```bash
+python main.py add https://www.reddit.com/r/python/.rss -n "Reddit Python"
+```
+
+### List all feeds:
+```bash
+python main.py list
+```
+
+### Read all feeds:
+```bash
+python main.py read
+```
+
+### Read a specific feed:
+```bash
+python main.py read "Reddit Python"
+```
+
+### Read more items:
+```bash
+python main.py read -m 20
+```
+
+### Show all items including read ones:
+```bash
+python main.py read -a
+```
+
+### Mark items as read while reading:
+```bash
+python main.py read -r
+```
+
+### Mark all items in all feeds as read:
+```bash
+python main.py mark-read
+```
+
+### Mark all items in a specific feed as read:
+```bash
+python main.py mark-read "Reddit Python"
+```
+
+### Clear read history:
+```bash
+python main.py clear-history
+```
+
