@@ -153,3 +153,27 @@ python main.py mark-read "Reddit Python"
 python main.py clear-history
 ```
 
+## 📚 RSS Feed Suggestions
+
+Here are some popular RSS feeds you might want to add:
+
+### News
+- BBC News: http://feeds.bbci.co.uk/news/world/rss.xml
+- Reuters: http://feeds.reuters.com/reuters/topNews
+- NPR: https://feeds.npr.org/1001/rss.xml
+
+### Technology
+- Hacker News: https://news.ycombinator.com/rss
+- TechCrunch: https://techcrunch.com/feed/
+- Wired: https://www.wired.com/feed/rss
+
+### Science
+- NASA: https://www.nasa.gov/rss/dyn/breaking_news.rss
+- Nature: http://feeds.nature.com/nature/rss/current
+- Science Daily: https://www.sciencedaily.com/rss/all.xml
+
+### Programming
+- Reddit Python: https://www.reddit.com/r/python/.rss
+- Python Insider: https://pythoninsider.blogspot.com/feeds/posts/default
+- GitHub Blog: https://github.blog/feed/
+
